@@ -19,27 +19,27 @@ Flag must start with ASCWG❴...answer❵
 
 ![alt text](https://github.com/Mr-R19HT/CTF-Writeups/blob/main/ASCWG_CTF2022/images/otp/phase1.png)
 
-i intercept request by burp.
+I intercept request by burp.
 
-2) once forward the request, i go to otp page.
+2) Once forward the request, I go to otp page.
 
 OTP means One Time Password: it’s a temporary, secure PIN-code sent to you via SMS or e-mail that is valid only for one session. Smart-ID uses OTPs during registration and account renewal to confirm your contact information.
 
 ![alt text](https://github.com/Mr-R19HT/CTF-Writeups/blob/main/ASCWG_CTF2022/images/otp/otpcode.png)
 
-3) intercept otp page request and forward it to see response. 
+3) Intercept otp page request and forward it to see response. 
 
 ![alt text](https://github.com/Mr-R19HT/CTF-Writeups/blob/main/ASCWG_CTF2022/images/otp/phase2.png)
 
 ![alt text](https://github.com/Mr-R19HT/CTF-Writeups/blob/main/ASCWG_CTF2022/images/otp/intercept%20response.png)
 
-do intercept response.
+Do intercept response.
 
-4) change response and forward it. 
+4) Change response and forward it. 
 
 ![alt text](https://github.com/Mr-R19HT/CTF-Writeups/blob/main/ASCWG_CTF2022/images/otp/change%20response.png)
 
-5) bingooo i get the flag.
+5) Bingooo, I get the flag.
 
 ![alt text](https://github.com/Mr-R19HT/CTF-Writeups/blob/main/ASCWG_CTF2022/images/otp/flag.png)
 
