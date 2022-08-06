@@ -14,7 +14,7 @@ Flag must start with ASCWG❴...answer❵
 
 ## Solution
 
-1) I saw the website and the source page.
+1) I viewed the website and the source page.
 
 ![alt text](https://github.com/Mr-R19HT/CTF-Writeups/blob/main/ASCWG_CTF2022/images/developer/login.png)
 
@@ -43,7 +43,7 @@ Which makes it easier to try to make an email similar to that so that any messag
 
 ![alt text](https://github.com/Mr-R19HT/CTF-Writeups/blob/main/ASCWG_CTF2022/images/developer/setnewpass.png)
 
-7) I go to the login page and enter the email and the new password that you entered on the password-setting page, and then I found the flag.
+7) I went to the login page and enter the email and the new password that you entered on the password-setting page, and then I found the flag.
 
 ![alt text](https://github.com/Mr-R19HT/CTF-Writeups/blob/main/ASCWG_CTF2022/images/developer/flag.png)
 
