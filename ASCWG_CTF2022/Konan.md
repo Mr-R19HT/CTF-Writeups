@@ -13,7 +13,7 @@ Flag must start with ASCWG❴...answer❵
 
 ## Solution
 
-1) open website now i try to login as admin
+1) I saw the website and tried to enter with the highest privildge.
 
 ![alt text](https://github.com/Mr-R19HT/CTF-Writeups/blob/main/ASCWG_CTF2022/images/otp/login.png)
 
@@ -21,11 +21,13 @@ Flag must start with ASCWG❴...answer❵
 
 i intercept request by burp
 
-2) once forward the request, i get go to otp code page
+2) once forward the request, i go to otp code page.
+
+OTP means One Time Password: it’s a temporary, secure PIN-code sent to you via SMS or e-mail that is valid only for one session. Smart-ID uses OTPs during registration and account renewal to confirm your contact information.
 
 ![alt text](https://github.com/Mr-R19HT/CTF-Writeups/blob/main/ASCWG_CTF2022/images/otp/otpcode.png)
 
-3) intercept otp page request and forward it to show response 
+3) intercept otp page request and forward it to see response 
 
 ![alt text](https://github.com/Mr-R19HT/CTF-Writeups/blob/main/ASCWG_CTF2022/images/otp/phase2.png)
 
