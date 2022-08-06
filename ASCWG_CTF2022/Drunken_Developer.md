@@ -9,3 +9,5 @@ Flag must start with ASCWG❴...answer❵
 [Link](http://104.154.142.159:5454/)
 
 ## Solution
+
+1) open website and view source page
