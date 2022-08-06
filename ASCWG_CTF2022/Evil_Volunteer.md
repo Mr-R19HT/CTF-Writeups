@@ -29,7 +29,8 @@ Flag must start with ASCWG❴...answer❵
 
 5) change extention
 
-![alt text](https://github.com/Mr-R19HT/CTF-Writeups/blob/main/ASCWG_CTF2022/images/evil/change extention.png)
+![alt text](https://github.com/Mr-R19HT/CTF-Writeups/blob/main/ASCWG_CTF2022/images/evil/change%20extention.png)
+
 
 6) upload file and intercept that by burp then use repeater
 
