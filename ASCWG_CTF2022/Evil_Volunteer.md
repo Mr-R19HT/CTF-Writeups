@@ -13,42 +13,42 @@ Flag must start with ASCWG❴...answer❵
 
 ## Solution
 
-1) I show website and view source page but source page is normal
+1) I viewed the website and the source page but the source page was normal.
 
 ![alt text](https://github.com/Mr-R19HT/CTF-Writeups/blob/main/ASCWG_CTF2022/images/evil/website.png)
 
-2) regsiter and login when do that, i notice to upload file now i think file upload vulnerability
+2) I registered a name and password, and then I logged in. The first time I entered, I noticed that it was asking me to upload a file, so I think it was a file upload vulnerbility.
 
 ![alt text](https://github.com/Mr-R19HT/CTF-Writeups/blob/main/ASCWG_CTF2022/images/evil/fileupload.png)
 
-3) now show source page for last page, i show accept-files
+3) Now take a look at the source page, I noticed the file format that the site accepts.
 
 ![alt text](https://github.com/Mr-R19HT/CTF-Writeups/blob/main/ASCWG_CTF2022/images/evil/source.png)
 
-4) i insert payload in image to upload cmd to make me talk with website to get the flag. i used exiftool to make that
+4) I inserted the payload in the image to load cmd to get me talking to the website to get the flag. I used exiftool to achieve this.
 
 ![alt text](https://github.com/Mr-R19HT/CTF-Writeups/blob/main/ASCWG_CTF2022/images/evil/exiftool.png)
 
-5) change extention
+5) Change extention
 
 ![alt text](https://github.com/Mr-R19HT/CTF-Writeups/blob/main/ASCWG_CTF2022/images/evil/change%20extention.png)
 
 
-6) upload file and intercept that by burp then use repeater
+6) I uploaded the file and intercepted it by burp and then using a repeater.
 
 ![alt text](https://github.com/Mr-R19HT/CTF-Writeups/blob/main/ASCWG_CTF2022/images/evil/upload.png)
 
-upload is success
+uploaded successfully.
 
-7) view image and ignore handle in url to show response without encode then make ls to list content
+7) I rendered the image and ignore the handle in the url to see the response unencoded and then do ls for the content of the list.
 
 ![alt text](https://github.com/Mr-R19HT/CTF-Writeups/blob/main/ASCWG_CTF2022/images/evil/cmd.png)
 
-8) read flag.php
+8) I read flag.php .
 
 ![alt text](https://github.com/Mr-R19HT/CTF-Writeups/blob/main/ASCWG_CTF2022/images/evil/cat.png)
 
-9) view source page to get the flag
+9) I viewed source page to get the flag.
 
 ![alt text](https://github.com/Mr-R19HT/CTF-Writeups/blob/main/ASCWG_CTF2022/images/evil/flag.png)
 
