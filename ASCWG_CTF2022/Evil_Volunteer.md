@@ -2,6 +2,8 @@
 
 ## Level: Medium
 
+## Point: 600
+
 ## Description
 The fox is guarding the hen house
 
