@@ -2,7 +2,7 @@
 
 ## Level: Medium
 
-### Description
+## Description
 The fox is guarding the hen house
 
 Flag must start with ASCWG❴...answer❵
