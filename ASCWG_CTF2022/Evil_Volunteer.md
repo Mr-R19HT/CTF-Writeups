@@ -27,4 +27,32 @@ Flag must start with ASCWG❴...answer❵
 
 ![alt text](https://github.com/Mr-R19HT/CTF-Writeups/blob/main/ASCWG_CTF2022/images/evil/exiftool.png)
 
+5) change extention
+
+![alt text](https://github.com/Mr-R19HT/CTF-Writeups/blob/main/ASCWG_CTF2022/images/evil/change extention.png)
+
+6) upload file and intercept that by burp then use repeater
+
+![alt text](https://github.com/Mr-R19HT/CTF-Writeups/blob/main/ASCWG_CTF2022/images/evil/upload.png)
+
+upload is success
+
+7) view image and ignore handle in url to show response without encode then make ls to list content
+
+![alt text](https://github.com/Mr-R19HT/CTF-Writeups/blob/main/ASCWG_CTF2022/images/evil/cmd.png)
+
+8) read flag.php
+
+![alt text](https://github.com/Mr-R19HT/CTF-Writeups/blob/main/ASCWG_CTF2022/images/evil/cat.png)
+
+9) view source page to get the flag
+
+![alt text](https://github.com/Mr-R19HT/CTF-Writeups/blob/main/ASCWG_CTF2022/images/evil/flag.png)
+
+
+
+
+
+
+
 
